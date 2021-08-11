@@ -1,0 +1,4 @@
+@EndUserText.label: 'sERVICE DEFINITION FOR AUFM'
+define service ZSRV_AUFM {
+  expose ZCDS_AUFM;
+}

@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definitionfordelivery'
+define service ZSRV_DELIVERY {
+  expose ZBO_DEL as DEL;
+  expose ZBO_ITEM as ITEM;
+}

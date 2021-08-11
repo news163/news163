@@ -1,0 +1,13 @@
+managed implementation in class zbp_cdsv_student_table1 unique;
+strict;
+
+define behavior for ZCDSV_STUDENT_TABLE1 alias student
+persistent table ZSTUDENT_TABLE_1
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

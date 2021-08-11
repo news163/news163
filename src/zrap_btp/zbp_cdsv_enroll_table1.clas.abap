@@ -1,0 +1,5 @@
+CLASS zbp_cdsv_enroll_table1 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zcdsv_enroll_table1.
+ENDCLASS.
+
+CLASS zbp_cdsv_enroll_table1 IMPLEMENTATION.
+ENDCLASS.

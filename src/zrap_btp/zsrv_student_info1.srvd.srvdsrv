@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZSRV_STUDENT_INFO'
+define service ZSRV_STUDENT_INFO1 {
+  expose ZSTUDENT1_C as student;
+  expose ZCOURSE1_C as course;
+  expose ZENROLL1_C as enroll;
+}

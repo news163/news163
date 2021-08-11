@@ -1,0 +1,13 @@
+managed implementation in class zbp_cdsv_course_table1 unique;
+strict;
+
+define behavior for ZCDSV_COURSE_TABLE1 //alias <alias_name>
+persistent table ZCOURSE_TABLE_1
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}
